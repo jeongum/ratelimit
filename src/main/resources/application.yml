@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: doteloper
+  datasource:
+    url: jdbc:mariadb://localhost:3306/noun
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: noun
+    password: noun
+  jpa:
+    hibernate:
+      ddl-auto: update
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
